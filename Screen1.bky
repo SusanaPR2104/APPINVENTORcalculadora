@@ -1,0 +1,209 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="[#)|w4?$mfHYL+^y^..F" x="-336" y="-221">
+    <mutation component_type="Button" is_generic="false" instance_name="btn_suma" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btn_suma</field>
+    <statement name="DO">
+      <block type="component_set_get" id="~MGVS5{]4)I)K%Ts[gtH">
+        <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="txt_resultado"></mutation>
+        <field name="COMPONENT_SELECTOR">txt_resultado</field>
+        <field name="PROP">Text</field>
+        <value name="VALUE">
+          <block type="text" id="%Mi,D%i=DT|W`HP@0I-d">
+            <field name="TEXT"></field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="gB;K[sBs.,~`!iSlKLU?">
+            <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="txt_resultado"></mutation>
+            <field name="COMPONENT_SELECTOR">txt_resultado</field>
+            <field name="PROP">Text</field>
+            <value name="VALUE">
+              <block type="math_add" id="u[^10Lh({gHJ0Xz)N;kQ">
+                <mutation items="2"></mutation>
+                <value name="NUM0">
+                  <block type="component_set_get" id="p`oKRaf*(abH*D25UYgE">
+                    <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="txt_A"></mutation>
+                    <field name="COMPONENT_SELECTOR">txt_A</field>
+                    <field name="PROP">Text</field>
+                  </block>
+                </value>
+                <value name="NUM1">
+                  <block type="component_set_get" id="f8{5D+}J#1aXQPUA~rT$">
+                    <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="txt_B"></mutation>
+                    <field name="COMPONENT_SELECTOR">txt_B</field>
+                    <field name="PROP">Text</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="WjUNCE`cna__lq]DM0yQ" x="-312" y="-91">
+    <mutation component_type="Button" is_generic="false" instance_name="btn_resta" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btn_resta</field>
+    <statement name="DO">
+      <block type="component_set_get" id="!qJhDs,C_iubuL[J6Z5+">
+        <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="txt_resultado"></mutation>
+        <field name="COMPONENT_SELECTOR">txt_resultado</field>
+        <field name="PROP">Text</field>
+        <value name="VALUE">
+          <block type="text" id="Kp{x,V=Zh/U`A6UBqVvH">
+            <field name="TEXT"></field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="1Talym{ghJj0=MRBMH=p">
+            <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="txt_resultado"></mutation>
+            <field name="COMPONENT_SELECTOR">txt_resultado</field>
+            <field name="PROP">Text</field>
+            <value name="VALUE">
+              <block type="math_subtract" id="9,tWhT9W5VnZAz:=-OP0">
+                <value name="A">
+                  <block type="component_set_get" id=",?_0Z`R_1`hHa`w#^.)(">
+                    <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="txt_A"></mutation>
+                    <field name="COMPONENT_SELECTOR">txt_A</field>
+                    <field name="PROP">Text</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="component_set_get" id="E)XNcfuC1]}i$]6+yV3i">
+                    <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="txt_B"></mutation>
+                    <field name="COMPONENT_SELECTOR">txt_B</field>
+                    <field name="PROP">Text</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="d997`n5t{m~;=Sotms~)" x="-313" y="29">
+    <mutation component_type="Button" is_generic="false" instance_name="btn_multiplicacion" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btn_multiplicacion</field>
+    <statement name="DO">
+      <block type="component_set_get" id="e@%r]eW/~bBPF,|ku(Ai">
+        <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="txt_resultado"></mutation>
+        <field name="COMPONENT_SELECTOR">txt_resultado</field>
+        <field name="PROP">Text</field>
+        <value name="VALUE">
+          <block type="text" id="%+(hw:7}=?O2|[nX$U_4">
+            <field name="TEXT"></field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="jFo:v80t:5IBkz1%~2;-">
+            <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="txt_resultado"></mutation>
+            <field name="COMPONENT_SELECTOR">txt_resultado</field>
+            <field name="PROP">Text</field>
+            <value name="VALUE">
+              <block type="math_multiply" id="v5/ALTT|_[E9*kB$;pow">
+                <mutation items="2"></mutation>
+                <value name="NUM0">
+                  <block type="component_set_get" id="ZxRrpWxlxOEpBit1^)~O">
+                    <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="txt_A"></mutation>
+                    <field name="COMPONENT_SELECTOR">txt_A</field>
+                    <field name="PROP">Text</field>
+                  </block>
+                </value>
+                <value name="NUM1">
+                  <block type="component_set_get" id="Ts}o#%EcQ)1?;Zz{2FNM">
+                    <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="txt_B"></mutation>
+                    <field name="COMPONENT_SELECTOR">txt_B</field>
+                    <field name="PROP">Text</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="$IzO?ZS=~hn:(cpf)mbN" x="-317" y="145">
+    <mutation component_type="Button" is_generic="false" instance_name="btn_division" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btn_division</field>
+    <statement name="DO">
+      <block type="component_set_get" id="@Q`aU8@keN,Sxrxq^2$]">
+        <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="txt_resultado"></mutation>
+        <field name="COMPONENT_SELECTOR">txt_resultado</field>
+        <field name="PROP">Text</field>
+        <value name="VALUE">
+          <block type="text" id="B[cwOXHkO/vZ0Q:P1x(O">
+            <field name="TEXT"></field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="Mp`Pfk:;C,)cD=?1)PfU">
+            <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="txt_resultado"></mutation>
+            <field name="COMPONENT_SELECTOR">txt_resultado</field>
+            <field name="PROP">Text</field>
+            <value name="VALUE">
+              <block type="math_division" id="FJjsy/UwS9eWTe|=jaaI">
+                <value name="A">
+                  <block type="component_set_get" id="(tQ]-#@D:uO^IUy?CFSL">
+                    <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="txt_A"></mutation>
+                    <field name="COMPONENT_SELECTOR">txt_A</field>
+                    <field name="PROP">Text</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="component_set_get" id="5?@(nEL;E/f+aGxo5SD(">
+                    <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="txt_B"></mutation>
+                    <field name="COMPONENT_SELECTOR">txt_B</field>
+                    <field name="PROP">Text</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="PnCMVk}MW[)8cob$(qs." x="-315" y="274">
+    <mutation component_type="Button" is_generic="false" instance_name="btn_clear" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btn_clear</field>
+    <statement name="DO">
+      <block type="component_set_get" id="=D$9q{e=ds%/FU2R_hV;">
+        <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="txt_resultado"></mutation>
+        <field name="COMPONENT_SELECTOR">txt_resultado</field>
+        <field name="PROP">Text</field>
+        <value name="VALUE">
+          <block type="text" id="}wm{^3I$Hs5ytgol6^ve">
+            <field name="TEXT"></field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="pPp)N+{,T@r*x_Tz7MpB">
+            <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="txt_A"></mutation>
+            <field name="COMPONENT_SELECTOR">txt_A</field>
+            <field name="PROP">Text</field>
+            <value name="VALUE">
+              <block type="text" id="na6lgFUQl0c%5hC=l(:a">
+                <field name="TEXT"></field>
+              </block>
+            </value>
+            <next>
+              <block type="component_set_get" id="A/.Q90:Y(y?3-oO?C$$^">
+                <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="txt_B"></mutation>
+                <field name="COMPONENT_SELECTOR">txt_B</field>
+                <field name="PROP">Text</field>
+                <value name="VALUE">
+                  <block type="text" id="F2}5y^LS-5;~1^G;I4OM">
+                    <field name="TEXT"></field>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="185" language-version="26"></yacodeblocks>
+</xml>
